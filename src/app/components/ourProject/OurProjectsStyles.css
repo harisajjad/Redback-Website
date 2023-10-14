@@ -1,0 +1,118 @@
+/* Create two equal columns that floats next to each other */
+* {
+  box-sizing: border-box;
+}
+/* use to styling the content container*/
+.container{
+  width: 1440px;
+  position: absolute;
+}
+
+
+
+
+
+.Project-Content-Container{
+    width: 1440px;
+    height: auto;
+    margin: 200px auto;
+}
+.ProjectContent{
+    display: grid;
+    grid-template-columns: repeat(2, 550px);
+    grid-template-rows: auto;
+    column-gap: 120px;
+    justify-content: center;
+}
+.grid-project{
+  font-family: 'Bodoni Moda';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 61px;
+  color: #BC5A5B;
+}
+.grid-description{
+  font-family: 'Roboto Flex';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+.Content{ 
+  height: auto;
+  display: grid;
+  grid-template-columns: 550px 700px;
+  grid-template-rows: auto;
+  column-gap: 40px;
+  justify-content: center;
+  margin: auto;
+  margin-left: 5%;
+}
+.InfoContent h1{
+  font-family: 'Bodoni Moda';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 98px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.InfoContent p{
+  font-family: 'Roboto Flex';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+color: #FFFFFF;
+}
+.ImgDisplay {
+ margin-left: 100px;
+}
+.Content1{
+  margin: 5% auto;
+  height: auto;
+  display: grid;
+  grid-template-columns: 550px 700px;
+  grid-template-rows: auto;
+  column-gap: 40px;
+  justify-content: center;
+  background-color: #96695F;
+  width: 100%;
+  height: 284px;
+}
+.Img2{
+  width: 725px;
+  height: 551px;
+  top: 850px;
+  background: url(../../../assets/Img2.png);
+}
+.ProjectDetail1 p{
+  font-family: 'Roboto Flex';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+ /* or 167% */
+  color: #FFFFFF; 
+}
+.ProjectDetail1{
+  margin-top: -5%;
+  width: 558px;
+  height: 422px;
+}
+.Rectangle1 {
+  position: relative;
+  width: 520px;
+  height: 306px;
+  background: #132B47;
+  opacity: 0.5;
+}
+
+.HeadsetImg {
+  width: 541px;
+  height: 322px;
+  margin: -40% -20% auto;
+  background: url(../../../assets/headset.png);
+}

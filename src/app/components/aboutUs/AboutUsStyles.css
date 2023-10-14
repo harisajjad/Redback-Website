@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.about-us-container {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(3, auto);
+    background-color: #e87461;
+}
+
+
+.about-us-banner-img {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.about-us-title{
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.about-us-title h2 {
+    font-size: 68px;
+    font-weight: bold;
+}
+
+.about-us-title p {
+    font-size: 22px;
+}
+
+.about-us-container p {
+    width: 80%;
+    margin: auto;
+    font-size: 24px;
+    color: black;
+    text-align: center;
+}
+
+.about-us-container img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.about-us-footer {
+    padding: 50px;
+    width: 70%;
+    font-size: 18px;
+    margin: auto;
+    text-align: center;
+    color: white;
+}

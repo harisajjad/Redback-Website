@@ -1,0 +1,38 @@
+    .Signup {
+    text-align: center !important;
+
+    }
+
+  
+    .Signup-header {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    }
+
+    .signUpInputs {
+        padding-bottom: 20px;
+    }
+
+     .Signup-input{
+        /* display: block; */
+        width:140%;
+        background-color:white;
+        padding: .5rem .8rem .5rem .8rem;
+        border:0;
+        border-radius: 5px; 
+        font-size: 15px;
+        background-color:"white"
+    }
+    
+    .Signuph2{
+        color: white;
+    }
+
+    .Signup-textarea{
+        height: 15vh;
+    }

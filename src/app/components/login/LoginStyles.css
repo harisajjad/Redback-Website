@@ -1,0 +1,60 @@
+@media all and (min-width: 480px) {
+    .Login {
+      padding: 60px 0;
+    }
+  
+    .Login form {
+      margin: 0 auto;
+      max-width: 320px;
+    }
+
+    .TextField{
+      color: rgb(255, 255, 255);
+    }
+  }
+
+  .contactUs-center {
+    margin: auto;
+    width: 50%;
+    margin-top:200px;
+    padding: 10px;
+    text-decoration: white;
+  }
+  .createprofile{
+    text-align: center;
+  }
+  
+    .Signup {
+    text-align: center;
+    }
+
+  
+    .Signup-header {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    }
+
+    .signUpInputs {
+        padding-bottom: 20px;
+    }
+
+     .Login-input, textarea{
+      width:140%;
+      background-color:white;
+      padding: .5rem .8rem .5rem .8rem;
+      border:0;
+      border-radius: 5px; 
+      font-size: 15px;
+      background-color:"white"
+    }
+    
+    textarea{
+        height: 15vh;
+    }
+
+    
